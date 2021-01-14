@@ -10,29 +10,33 @@ ul>li {
     text-decoration: none;
 
 }
+
 ul>li>p,
 .social-media-icons {
     text-decoration: none;
     list-style: none;
 }
-.social-media-icons{
+
+.social-media-icons {
     display: inline;
 }
-div > h1,
+
+div>h1,
 h2,
 h3 {
     margin-left: 41px;
 }
 
-.parag{
+.parag {
     display: inline;
     padding-left: 5px;
 }
+
 ul {
     list-style: none;
 }
 
-.middleDiv{
+.middleDiv {
     list-style: unset;
 }
 
@@ -41,9 +45,32 @@ div p i {
     margin-left: 56px;
 }
 
-.backG{
+.backG {
     background-color: #16304e;
 }
-.container-fluid{
+
+.container-fluid {
     margin-top: 2%;
+}
+
+.loginFlex {
+    display: flex;
+    justify-content: space-around;
+    
+
+}
+
+.loginCard{
+    display: flex;
+    justify-content: space-around;
+    color: #16304e;
+    
+
+}
+
+#rightButton{
+    float: right;
+}
+#leftButton{
+    float: left;
 }

@@ -74,25 +74,106 @@
 
 
 
+    <!-- Container starts here -->
 
-    
+    <div class="container">
 
+        <div class="loginFlex my-4">
+            <div class="card bg-card cardBody col-md-4">
+                <h1 class="card-title loginCard">Welcome</h1>
+                <div class="card-body">
 
-
-
-
-
-
-
-
-
+                    <!-- <img src="./assets/img/footprint.png" class="card-img-top text-center" alt="..." style="width: 70%; opacity: .3;"> -->
 
 
+                    <!-- form starts here -->
+                    <form>
+                        <div class="form-group">
+                            <label for="exampleInputEmail1">Email address</label>
+                            <input type="email" class="form-control" id="exampleInputEmail1"
+                                aria-describedby="emailHelp">
+                            <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone
+                                else.</small>
+                        </div>
+                        <div class="form-group">
+                            <label for="exampleInputPassword1">Password</label>
+                            <input type="password" class="form-control" id="exampleInputPassword1">
+                        </div>
+                        <div class="form-group form-check">
+                            <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                            <label class="form-check-label" for="exampleCheck1">Remember this device</label>
+                        </div>
+                        <button type="submit" class="btn btn-primary" id="leftButton">Login</button>
+
+                        <button class="btn btn-primary" onclick="location.href='./register.html';"
+                            id="rightButton">Don't have an account?</button>
+                    </form>
 
 
 
 
-    
+
+
+
+
+
+
+                    <!-- Form ends here -->
+
+                </div>
+            </div>
+
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -174,6 +255,18 @@
     </script>
 
 
+<!-- register and login button -->
+    <script>
+        document.getElementById("rightButton").addEventListener("click", register);
+
+        function register() {
+            window.href='./register.html';
+            document.getElementById("rightButton").innerHTML = "Clicked";
+        }
+    </script>
+
+
+<!-- ends here -->
 </body>
 
 </html>
