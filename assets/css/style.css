@@ -74,3 +74,9 @@ div p i {
 #leftButton{
     float: left;
 }
+
+.navbar-nav{
+
+    display: flex;
+    align-items: flex-end;
+}
