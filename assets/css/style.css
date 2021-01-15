@@ -56,16 +56,12 @@ div p i {
 .loginFlex {
     display: flex;
     justify-content: space-around;
-    
-
 }
 
 .loginCard{
     display: flex;
     justify-content: space-around;
     color: #16304e;
-    
-
 }
 
 #rightButton{
@@ -73,10 +69,4 @@ div p i {
 }
 #leftButton{
     float: left;
-}
-
-.navbar-nav{
-
-    display: flex;
-    align-items: flex-end;
 }
